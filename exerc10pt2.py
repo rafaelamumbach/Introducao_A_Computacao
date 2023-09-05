@@ -1,8 +1,8 @@
-matricula = int(input("Informe o número da matrícula do professor ==> "))
-num_horas = float(input("Informe o número de horas-aula ministradas no mês  ==> "))
-valor_hora = float(input("Informe o valor da hora-aula ==> "))
-INSS = float(input("Informe a alíquota de recolhimento do INSS ==> "))
-IR = float(input("Informe a alíquota de recolhimento do IR ==> "))
+matricula = int (input("Informe o número da matrícula do professor ==> "))
+num_horas = float (input("Informe o número de horas-aula ministradas no mês  ==> "))
+valor_hora = float (input("Informe o valor da hora-aula ==> "))
+INSS = float (input("Informe a alíquota de recolhimento do INSS ==> "))
+IR = float (input("Informe a alíquota de recolhimento do IR ==> "))
 
 sal_bruto = valor_hora * num_horas
 desc1 = sal_bruto * INSS / 100

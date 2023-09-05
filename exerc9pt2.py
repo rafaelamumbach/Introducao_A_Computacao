@@ -1,7 +1,7 @@
-matricula =  int(input("Informe o número da matrícula do professor ==> "))
-num_horas = float(input("Informe o número de horas-aula ministradas no mês  ==> "))
-valor_hora = float(input("Informe o valor da hora-aula ==> "))
-INSS = float(input("Informe a alíquota de recolhimento do INSS ==> "))
+matricula =  int (input("Informe o número da matrícula do professor ==> "))
+num_horas = float (input("Informe o número de horas-aula ministradas no mês  ==> "))
+valor_hora = float (input("Informe o valor da hora-aula ==> "))
+INSS = float (input("Informe a alíquota de recolhimento do INSS ==> "))
 
 sal_bruto = valor_hora *num_horas
 
